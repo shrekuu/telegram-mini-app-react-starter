@@ -1,5 +1,5 @@
 {
-  "name": "telegram-mini-app-starter",
+  "name": "telegram-mini-app-react-starter",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@twa-dev/sdk": "^8.0.1",
+    "clsx": "^2.1.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
@@ -25,9 +27,12 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
     "globals": "^15.12.0",
+    "prettier": "^3.4.1",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "prettier-plugin-tailwindcss": "^0.6.9",
     "tailwindcss": "4.0.0-beta.3",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.15.0",
-    "vite": "^6.0.1"
+    "vite": "^6.0.2"
   }
 }
